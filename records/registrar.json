@@ -1,0 +1,58 @@
+[
+  {
+    "id": "block-G",
+    "zones": [
+      "face-edge",
+      "verso-edge",
+      "face-text",
+      "face-ink"
+    ],
+    "paired_zones": [
+      [
+        "face-edge",
+        "verso-edge"
+      ]
+    ]
+  },
+  {
+    "id": "ink-flag",
+    "block": "block-G",
+    "zone": "face-ink",
+    "preserve_old_ink": true,
+    "handling": [
+      "no_contact",
+      "coated_barrier"
+    ]
+  },
+  {
+    "id": "permit-T1",
+    "person": "fixer-a",
+    "block": "block-G",
+    "zones": [
+      "verso-edge"
+    ],
+    "allowed": [
+      "temporary_brace"
+    ],
+    "until": 14
+  },
+  {
+    "id": "permit-T2",
+    "person": "fixer-b",
+    "block": "block-G",
+    "zones": [
+      "face-edge",
+      "face-text"
+    ],
+    "allowed": [
+      "surface_clean"
+    ],
+    "until": 14
+  },
+  {
+    "id": "compat-4",
+    "family_a": "water_binder",
+    "family_b": "release_paper",
+    "compatible_after_dry_hours": 12
+  }
+]

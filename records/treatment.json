@@ -1,0 +1,55 @@
+[
+  {
+    "id": "treat-4",
+    "block": "block-G",
+    "zone": "verso-edge",
+    "person": "fixer-a",
+    "kind": "temporary_brace",
+    "material": "water_binder",
+    "day": 6,
+    "hour": 8,
+    "reported_as": "applied"
+  },
+  {
+    "id": "treat-5",
+    "block": "block-G",
+    "zone": "face-edge",
+    "person": "fixer-b",
+    "kind": "surface_clean",
+    "material": "release_paper",
+    "day": 6,
+    "hour": 16,
+    "reported_as": "proposed"
+  },
+  {
+    "id": "crack-3",
+    "block": "block-G",
+    "seen_day": 7,
+    "zones": [
+      "verso-edge",
+      "face-edge",
+      "face-ink"
+    ],
+    "new_link": "face-ink",
+    "state": "monitor"
+  },
+  {
+    "id": "accept-4",
+    "block": "block-G",
+    "zone": "verso-edge",
+    "day": 8,
+    "accepted": "stable_for_transport",
+    "max_pressure_n": 0
+  },
+  {
+    "id": "accept-5",
+    "block": "block-G",
+    "zone": "face-edge",
+    "day": 9,
+    "accepted": "stable_with_support",
+    "max_pressure_n": 35,
+    "related": [
+      "verso-edge"
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "query-1",
+    "block": "block-G",
+    "kind": "observation",
+    "zones": [
+      "face-text",
+      "face-ink"
+    ],
+    "in_contact": false,
+    "scheduled_day": 11
+  },
+  {
+    "id": "press-3",
+    "block": "block-G",
+    "kind": "trial_impression",
+    "zones": [
+      "face-edge",
+      "face-ink"
+    ],
+    "pressure_n": 28,
+    "in_contact": true,
+    "paper": "uncoated",
+    "scheduled_day": 11,
+    "status": "planned"
+  },
+  {
+    "id": "old-press",
+    "block": "block-G",
+    "kind": "trial_impression",
+    "zones": [
+      "face-text"
+    ],
+    "pressure_n": 12,
+    "submitted_day": 5,
+    "completion_report": "not_yet_received"
+  },
+  {
+    "id": "bench-21",
+    "block": "block-G",
+    "kind": "observation",
+    "zones": [
+      "face-text"
+    ],
+    "actual_day": 4,
+    "duration_min": 12,
+    "in_contact": false
+  }
+]
